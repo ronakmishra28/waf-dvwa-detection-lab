@@ -28,7 +28,7 @@ I installed a LAMP stack on Ubuntu and deployed DVWA. During setup, I encountere
 Once everything was working, I set the DVWA security level to **Low** for testing.
 
 ### DVWA Homepage
-![DVWA](screenshots/dvwa-homepage)
+![DVWA](screenshots/dvwa-homepage.png)
 
 ---
 
@@ -37,7 +37,7 @@ Once everything was working, I set the DVWA security level to **Low** for testin
 I installed SafeLine WAF using the official script, which automatically deployed Docker containers and the management interface.
 
 ### Installation Output
-![Installation](screenshots/safeline-installation)
+![Installation](screenshots/safeline-installation.png)
 
 ---
 
@@ -45,7 +45,7 @@ I installed SafeLine WAF using the official script, which automatically deployed
 
 After installation, I accessed the dashboard and confirmed that no traffic was being blocked yet.
 
-![Dashboard Initial](screenshots/safeline-dashboard-initial)
+![Dashboard Initial](screenshots/safeline-dashboard-initial.png)
 
 ---
 
@@ -53,7 +53,7 @@ After installation, I accessed the dashboard and confirmed that no traffic was b
 
 I configured DVWA inside SafeLine so it could act as a reverse proxy and inspect traffic before forwarding it to the backend server.
 
-![App Config](screenshots/safeline-app-config)
+![App Config](screenshots/safeline-app-config.png)
 
 ---
 
@@ -62,10 +62,10 @@ I configured DVWA inside SafeLine so it could act as a reverse proxy and inspect
 I enabled multiple protection mechanisms to simulate real-world defenses.
 
 ### HTTP Flood Protection
-![HTTP Flood](screenshots/safeline-http-flood-rule)
+![HTTP Flood](screenshots/safeline-http-flood-rule.png)
 
 ### Authentication / Deny Rule
-![Auth Rule](screenshots/safeline-auth-deny-rule)
+![Auth Rule](screenshots/safeline-auth-deny-rule.png)
 
 ---
 
@@ -80,7 +80,7 @@ I tested a simple SQL injection payload:
 
 This successfully bypassed authentication and returned all users from the database.
 
-![SQL Injection Success](screenshots/sql-injection-success)
+![SQL Injection Success](screenshots/sql-injection-success.png)
 
 ---
 
@@ -96,7 +96,7 @@ After enabling SafeLine protections, I repeated the same attacks.
 - Custom deny rule → Immediate block
 
 ### WAF Block Page
-![Blocked](screenshots/waf-block-page)
+![Blocked](screenshots/waf-block-page.png)
 
 ---
 
@@ -112,10 +112,10 @@ The logs showed:
 - Timestamp
 - Action taken
 
-![WAF Logs](screenshots/waf-logs-detection)
+![WAF Logs](screenshots/waf-logs-detection.png)
 
 ### HTTP Flood Logs
-![Flood Logs](screenshots/waf-http-flood-logs)
+![Flood Logs](screenshots/waf-http-flood-logs.png)
 
 ---
 
@@ -123,7 +123,7 @@ The logs showed:
 
 The SafeLine dashboard reflected the blocked traffic and attack activity.
 
-![Dashboard After](screenshots/safeline-dashboard-after-attacks)
+![Dashboard After](screenshots/safeline-dashboard-after-attacks.png)
 
 ---
 
@@ -152,7 +152,7 @@ This lab simulates real-world SOC scenarios:
 
 You can view the full detailed documentation here:
 
-[SafeLine WAF Lab Report](./SafeLine-WAF-Home-Lab-Project.pdf)
+[SafeLine WAF Lab Report](./SafeLine-WAF-Home-Lab-Project.pdf.png)
 
 ---
 
