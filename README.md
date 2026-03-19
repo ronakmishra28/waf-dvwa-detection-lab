@@ -152,7 +152,7 @@ This lab simulates real-world SOC scenarios:
 
 You can view the full detailed documentation here:
 
-[SafeLine WAF Lab Report](./SafeLine-WAF-Home-Lab-Project.pdf.png)
+[SafeLine WAF Lab Report](./SafeLine-WAF-Home-Lab-Project.pdf)
 
 ---
 
