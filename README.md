@@ -1,5 +1,5 @@
 # SafeLine WAF Lab – Detecting and Blocking Web Attacks
-
+Hands-on lab demonstrating detection and blocking of SQL injection, XSS, and HTTP flood attacks using SafeLine WAF.
 ## Overview
 
 In this project, I built a home lab to understand how real web attacks work and how a Web Application Firewall (WAF) can detect and block them.
